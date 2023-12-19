@@ -1,0 +1,32 @@
+.pagination {
+    margin: 20px 0 20px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .pagination__number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fadbdb;
+    min-width: 40px;
+    min-height: 40px;
+    border-radius: 16px;
+    font-size: 23px;
+    font-weight: 700;
+    color: #bc3f3f;
+    border: 1px solid #bc3f3f;
+    cursor: pointer;
+    transition: all .4s ease;
+  }
+  
+  .pagination__number:hover {
+    background-color: #bc3f3f;
+    color: #fff;
+  }
+  
+  .pagination__number_active {
+    background-color: #bc3f3f;
+    color: #fff;
+  }

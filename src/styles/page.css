@@ -1,0 +1,12 @@
+:root {
+    scroll-behavior: smooth;
+  }
+  
+  .page {
+    box-sizing: border-box;
+    font-family: 'Eudoxus Sans', sans-serif;
+    font-size: 18px;
+    color: #451818;
+    --page-width: 1440px;
+    overflow: hidden;
+  }
